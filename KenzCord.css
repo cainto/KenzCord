@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('galaxy.jpg') no-repeat center center/cover;
+}
+
+.Konten {
+    width: 900px;
+    height: 450px;
+    display: flex;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgb(48, 47, 47);
+}
+
+.bengs {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+}
+
+.bengs h2 {
+    font-size: 22px;
+    margin-bottom: 7px;
+    color: white;
+}
+.bengs p{
+    color: #b3b3b3;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+.bengs label {
+    display: block;
+    text-align: left;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.bengs .forgot-password {
+    font-size: 14px;
+    color: #7289da;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.bengs .register-text {
+    margin-top: 14px;
+    color: #b3b3b3;
+    font-size: 13px;
+}
+.typee {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #3b3939;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.idk {
+    flex: 1.2;
+    background: rgb(48, 47, 47);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.idk .Qr{
+    height: 10px;
+    width: 10px;
+    padding: 0;
+}
+
+.idk h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.idk p {
+    text-align: center;
+    font-size: 14px;
+}
